@@ -1,0 +1,36 @@
+Problems we are looking to solve:
+
+Hungry passengers on a flight:
+-> User: people who are busy and must eat during a flight
+
+Ideas: 
+
+Web-App
+	Pre-ordering food/drinks on flights for cheaper prices
+	Shows listings on flights
+	Gives query about pre-ordering food or drinks
+	Discounts for people who fly often/buy often
+	Can specify what hour/time in flight when food can arrive
+
+
+Machine Learning using Jet Blue Flight Data
+	Match data
+	Find "hot" times of flying (time or date)
+	Return for location or destination
+
+
+Facebook API and Jet Blue Data
+	Enter your flight number
+	Login into Facebook network
+	Return in any and which friends are going on the flight
+
+
+Chrome Extensions (multiple possibilities)
+	Bookmark manager
+	Fake news/credibility
+	Finding most important parts of page/articles
+
+
+
+
+
