@@ -11,11 +11,11 @@ with open('Lowest_Fares.csv') as f:
 headings = flight_list[0]
 flight_list = flight_list[1:]
 
-'''flight_time_change = [] 
+flight_time_change = [] 
 for time in flight_list:
-	time[2] = parser.parse(time[2], fuzzy=True)
+	time[2] = parser.parse(str(time[2]), fuzzy=True)
 	flight_time_change += time
-'''
+
 
 
 user_location = raw_input("Enter your starting location (ex. SFO, LAX, SEA) : ").upper()
@@ -29,6 +29,7 @@ for flight in flight_list:
 		location_flights += flight
 	else:
 		pass
+
 
 
 print(location_flights)  
