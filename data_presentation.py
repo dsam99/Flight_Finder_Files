@@ -1,4 +1,4 @@
-import randomflight.py;
+import randomflight;
 
 # Outputs all information about the chosen flights
 def data_presentation (flight_tuple):
