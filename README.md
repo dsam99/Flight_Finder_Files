@@ -1,11 +1,11 @@
-# YHack-Files
+# JetBlue Flight Randomizer 
 YHack 2017
 
-Team Members:
-Tyler Jiang
-Dylan Sam
-Ryan Choi
-Sonny Mo
+## Team Members:
+- Tyler Jiang
+- Dylan Sam
+- Ryan Choi
+- Sonny Mo
 
 We are creating a web app that utilizes a Jet Blue data set to generate a random trip. When entering a certain range of free time, our web app will generate a random trip with flight data to a certain city or country. The app can also account for price ranges, language constraints, and other parameters. 
 
