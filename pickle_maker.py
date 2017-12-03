@@ -17,9 +17,11 @@ flight_list = flight_list[1:]
 flight_time_change = [] 
 
 for time in flight_list:
-	time[2] = time[2][:-5]
-	time[2] = parser.parse(str(time[2])[0:9], fuzzy=True)
+	time[2] = time[2]
+	time[2] = parser.parse(str(time[2])).date()
 	flight_time_change.append(time)
 
-with open('flights.pickle', 'wb') as f:
-	pickle.dump(flight_time_change, f)
+
+print(flight_time_change)
+#with open('flights.pickle', 'wb') as f:
+#	pickle.dump(flight_time_change, f)
